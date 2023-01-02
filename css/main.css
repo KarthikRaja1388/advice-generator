@@ -62,7 +62,7 @@ main {
 .dice-container {
   background-color: hsl(150, 100%, 66%);
   display: flex;
-  padding: 0.4rem;
+  padding: 0.5rem;
   border-radius: 50%;
   transition: 0.3s ease-in;
   position: relative;
@@ -70,7 +70,8 @@ main {
   cursor: pointer;
 }
 .dice-container:hover {
-  box-shadow: 0 0 10px hsl(150, 100%, 66%);
+  box-shadow: 0 0 15px hsl(150, 100%, 66%);
+  transform: rotate(90deg);
 }
 
 @media all and (min-width: 600px) {
